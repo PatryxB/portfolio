@@ -22,4 +22,4 @@ Auth::routes();
 Route::get('/portfolio', 'Portfolio@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/blog', 'BlogController@index');
-Route::get('/cv', 'CvController@index');
+Route::get('/aboutme', 'CvController@index');

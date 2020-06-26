@@ -390,79 +390,6 @@ input[type=checkbox]{
     }
 
 }
-#cvme{
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-.cv-block{
-    width: 65%;
-    margin: 0 auto;
-    height: 150vh;
-    border-radius: 15px;
-    box-shadow: 2px 2px rgb(185, 185, 185);
-    background-color: rgb(233, 233, 233);
-}
-.cv-left{
-    height: 100%;
-    width: 28%;
-    background-color: rgb(69, 111, 128);
-    float: left;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    color: white;
-}
-.cv-right{
-    height: 100%;
-    width: 72%;
-    float: left;
-}
-.cv-right h2{
-    margin-top: 40px;
-    margin-left: 25px;
-}
-.cv-contact-item{
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-.cv-contact-item p{
-    margin-bottom: 0 !important;
-}
-.cv-info{
-    margin-left: 20px;
-    margin-top: 30px;
-}
-.cv-info p:nth-child(1){
-    font-size: 1.2rem;
-}
-.cv-info #s::after{
-    content: '';
-    display: block;
-    width: 50px;
-    height: 6px;
-    margin-left: 6px;
-    background-color: rgb(168,168,168);
-}
-.cv-info ul li{
-    list-style: disc;
-}
-.cv-info ul{
-    padding: 0;
-}
-h3{
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.cv-skills img{
-    width: 125px;
-    height: 100px;
-}
-.cv-skills{
-    float: left;
-    padding: 5px;
-}
 .blog-banner{
     height: 70vh;
     width: 100%;
@@ -473,10 +400,4 @@ h3{
     font-size: 30px;
     text-align: center;
 }
-.blog-search-box{
-    width: 400px;
-    height: 45px;
-    background-color: white;
-    border-radius: 10px;
-    margin: auto;
-}
+.blog-search-box

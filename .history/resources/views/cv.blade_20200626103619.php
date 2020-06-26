@@ -13,14 +13,18 @@
     </head>
     <body>
 
-        <header>
-            <div class="blog-banner">
-                <div class="blog-h1">Learn surprising facts from around the world</div>
-                <div class="blog-search-box">
-                    <i class="fas fa-search"></i>
-                </div>
+        @extends('layouts.app')
+        @section('content')
+
+        <h1>Cv</h1>
+
+        <section id="cv" style="20px;">
+            <div class="cv-block">
+
             </div>
-        </header>
+        </section>
+
+        @endsection
 
     </body>
 </html>

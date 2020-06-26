@@ -34,7 +34,7 @@
             <ul>
                 <li style="margin-bottom:6px;"><a href="{{ url('/') }}"><img src="{{asset('img/Patryk.png')}}" alt="Patryk" id="Patryk" width="47" height="25"></a></li>
                 <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
-                <li><a href="{{ url('/cv')}}">About Me</a></li>
+                <li><a href="{{ url('/aboutme')}}">About Me</a></li>
                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                 <li><a href="{{ url('/blog') }}">Blog</a></li>
                 <li><a href="{{route('login')}}">Login</a></li>

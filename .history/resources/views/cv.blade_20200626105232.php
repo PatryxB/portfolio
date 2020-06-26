@@ -13,14 +13,23 @@
     </head>
     <body>
 
-        <header>
-            <div class="blog-banner">
-                <div class="blog-h1">Learn surprising facts from around the world</div>
-                <div class="blog-search-box">
-                    <i class="fas fa-search"></i>
+        @extends('layouts.app')
+        @section('content')
+
+        <h1>Cv</h1>
+
+        <section id="cv" style="margin-top:50px;">
+            <div class="cv-block">
+                <div class="cv-left">
+                    <img id="cvme" src="{{asset('img/Patrykprof.jpg')}}" alt="Me" width="150" height="150">
+                    <h3>Contact</h3>
+                    <p>xd</p>
                 </div>
+                <div class="cv-right"></div>
             </div>
-        </header>
+        </section>
+
+        @endsection
 
     </body>
 </html>

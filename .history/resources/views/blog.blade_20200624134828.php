@@ -12,15 +12,6 @@
 
     </head>
     <body>
-
-        <header>
-            <div class="blog-banner">
-                <div class="blog-h1">Learn surprising facts from around the world</div>
-                <div class="blog-search-box">
-                    <i class="fas fa-search"></i>
-                </div>
-            </div>
-        </header>
-
+        
     </body>
 </html>

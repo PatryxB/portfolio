@@ -400,7 +400,7 @@ input[type=checkbox]{
 .cv-block{
     width: 65%;
     margin: 0 auto;
-    height: 150vh;
+    height: 90vh;
     border-radius: 15px;
     box-shadow: 2px 2px rgb(185, 185, 185);
     background-color: rgb(233, 233, 233);
@@ -437,7 +437,10 @@ input[type=checkbox]{
 .cv-info p:nth-child(1){
     font-size: 1.2rem;
 }
-.cv-info #s::after{
+.cv-info div{
+    margin: 0 !important;
+}
+.cv-info p:nth-child(1)::after{
     content: '';
     display: block;
     width: 50px;
@@ -456,12 +459,11 @@ h3{
     margin-top: 20px;
 }
 .cv-skills img{
-    width: 125px;
-    height: 100px;
+    width: 150px;
+    height: 125px;
 }
 .cv-skills{
     float: left;
-    padding: 5px;
 }
 .blog-banner{
     height: 70vh;
